@@ -1,0 +1,11 @@
+{
+  "advertise_addr": "{{ network_private_address }}",
+  "data_dir": "{{ consul_data_dir }}",
+  "datacenter": "{{ consul_datacenter }}",
+  "dns_config": {
+    "service_ttl": {
+      "*": "{{ consul_dns_service_ttl | default('60s') }}"
+    }
+  },
+  "encrypt": "{{ consul_encrypt }}"
+}

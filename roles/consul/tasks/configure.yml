@@ -1,0 +1,11 @@
+---
+
+- name: Copy Consul agent config
+  template:
+    src: consul_agent.json.j2
+    dest: "{{ consul_config_dir }}/20-agent.json"
+    owner: root
+    group: root
+    mode: 0644
+  notify:
+    - restart consul

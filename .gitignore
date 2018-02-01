@@ -1,0 +1,11 @@
+# Ansible
+*.retry
+
+# Vagrant
+.vagrant/
+*.log
+
+# Vim
+*.swp
+*.swo
+*.swn

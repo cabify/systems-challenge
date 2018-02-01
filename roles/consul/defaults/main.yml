@@ -1,0 +1,13 @@
+---
+consul_version: 1.0.3
+consul_download_url: "https://releases.hashicorp.com/consul/{{ consul_version }}/consul_{{ consul_version }}_linux_amd64.zip"
+
+consul_datacenter: cabify
+consul_encrypt: WNFe5zIjCIHFeJnqtrfdgw==
+
+consul_config_dir: /etc/consul.d
+consul_data_dir: /var/lib/consul
+consul_install_dir: /opt/consul/bin
+consul_log_dir: /var/log/consul
+
+consul_binary: "{{ consul_install_dir }}/consul"

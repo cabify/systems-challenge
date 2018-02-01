@@ -1,0 +1,10 @@
+description "Cabify - Example App"
+
+start on (started networking)
+stop on runlevel [!2345]
+
+respawn
+
+script
+    python {{ cabify_path }}/cabify.py
+end script

@@ -1,0 +1,6 @@
+---
+- name: Ensure HAProxy is enabled 
+  service:
+    name: haproxy
+    state: started
+    enabled: yes

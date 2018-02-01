@@ -1,0 +1,6 @@
+---
+- name: Enable Cabify App service
+  service:
+    name: cabify
+    enabled: yes
+    state: started
