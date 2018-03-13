@@ -122,6 +122,8 @@ Think of this assignment as if it were production ready. You need to deliver
 the folowing:
 
 - GitHub repository with the solution.
+- Extend the ansible codebase provided with new roles if needed or
+  modifications in the current ones.
 - README explaining the solution. Links pointing to external documentation
   justifying your arguments are welcomed.
 
